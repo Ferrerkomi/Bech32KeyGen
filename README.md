@@ -52,7 +52,7 @@ cargo build --release
 Une fois le projet compilé, exécutez le fichier binaire pour générer une paire de clés:
 
 ```bash
-./target/release/Bech32KeyGen
+./target/release/Bech32KeyGen ou cargo run
 ```
 
 Vous verrez la clé publique et la clé privée générées au format Bech32, ainsi que la clé privée en format hexadécimal.
